@@ -7,7 +7,6 @@ from discord.ext import commands
 from weather import *
 
 
-api_key = '62ce074edef864d4ded19169eb8920b2'
 command_prefix = 'w.'
 #token = process.env.DISCORD_TOKEN;
 #applicationId = process.env.DISCORD_APPLICATION_ID;
