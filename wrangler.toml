@@ -1,4 +1,4 @@
-name = "weather_bot"
+name = "weatherbot_worker"
 account_id = "5f2f6a803eee506712cf4a62e92aaa4f"
 workers_dev = true
 

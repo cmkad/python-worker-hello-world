@@ -1,5 +1,5 @@
 import discord
-import os
+#import os
 import requests
 import json
 from dotenv import load_dotenv
@@ -8,10 +8,11 @@ from weather import *
 
 
 command_prefix = 'w.'
-#token = process.env.DISCORD_TOKEN;
-#applicationId = process.env.DISCORD_APPLICATION_ID;
+token = process.env.DISCORD_TOKEN;
+applicationId = process.env.DISCORD_APPLICATION_ID;
+api_key = process.env.API_KEY
 load_dotenv()
-token = os.getenv('TOKEN')
+#token = os.getenv('TOKEN')
 
 #Working Code
 bot = commands.Bot(command_prefix)
